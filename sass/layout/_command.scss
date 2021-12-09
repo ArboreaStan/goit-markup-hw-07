@@ -1,0 +1,85 @@
+.command-section {
+  background-color: var(--main-section-color);
+}
+
+.command-title {
+  margin-bottom: 50px;
+  color: var(--second-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.command-list {
+  display: flex;
+}
+
+.command-item {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.command-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.command-title-name {
+  color: var(--second-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 10px;
+}
+
+.command-text {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+
+.command-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.command-social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.command-social-item + .command-social-item {
+  margin-left: 10px;
+}
+
+.command-social-link {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.command-social-link:hover,
+.command-social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
+}
+
+.command-social-icon {
+  fill: currentColor;
+}
+
+.command-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
