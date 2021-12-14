@@ -7,13 +7,12 @@
   display: flex;
 }
 
-.reasons-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .reasons-item {
   width: 270px;
   height: 251px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .reasons-box {

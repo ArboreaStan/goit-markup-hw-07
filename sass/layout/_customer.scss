@@ -7,10 +7,9 @@
 
 .customer-item {
   text-align: center;
-}
-
-.customer-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .customer-link {
@@ -25,12 +24,11 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.customer-link:focus,
-.customer-link:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .customer-title {

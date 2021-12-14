@@ -20,10 +20,9 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-}
-
-.command-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .command-title-name {
@@ -66,12 +65,11 @@
   transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.command-social-link:hover,
-.command-social-link:focus {
-  background-color: var(--accent-color);
-  color: var(--main-title-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--main-title-color);
+  }
 }
 
 .command-social-icon {

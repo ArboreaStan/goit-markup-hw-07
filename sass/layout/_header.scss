@@ -58,6 +58,10 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .site-nav-link.current::after {
@@ -79,22 +83,16 @@
   opacity: 1;
 }
 
-.site-nav-link:hover,
-.site-nav-link:focus {
-  color: var(--accent-color);
-}
-
 .auth-nav {
   display: flex;
   margin-left: auto;
 }
 
-.auth-nav-item:not(:first-child) {
-  margin-left: 50px;
-}
-
 .auth-nav-item {
   padding: 32px 0;
+  &:not(:first-child) {
+    margin-left: 50px;
+  }
 }
 
 .auth-nav-icon {
@@ -112,11 +110,10 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.auth-nav-link:hover,
-.auth-nav-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 /*------------- Portfolio ---------------*/
