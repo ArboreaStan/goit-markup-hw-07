@@ -1,4 +1,4 @@
-.works-list {
+.works__list {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
@@ -71,7 +71,7 @@
   flex-wrap: wrap;
 }
 
-.button-page {
+.works__button {
   cursor: pointer;
   font-family: Roboto;
   font-weight: 500;
@@ -92,7 +92,7 @@
   }
 }
 
-.works-item:not(:last-child) {
+.works__item:not(:last-child) {
   margin-right: 8px;
 }
 
