@@ -4,31 +4,24 @@
   color: #e9e7e7;
 }
 
-.header-box {
+.header__box {
   display: flex;
 }
 
-.header-title {
-  color: var(--main-title-color);
-}
-
-.header-navigation {
+.header__navigation {
   display: flex;
 }
 
-.site-nav {
+.header__nav {
   display: flex;
   margin-left: 93px;
 }
 
-.site-nav-item:not(:last-child) {
+.header__item:not(:last-child) {
   margin-right: 40px;
 }
 
-.site-nav-item {
-}
-
-.logo {
+.header__logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -39,11 +32,11 @@
   padding-bottom: 25px;
 }
 
-.logo-tittle {
+.header__logo-dark {
   color: #000000;
 }
 
-.site-nav-link {
+.header__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,7 +57,7 @@
   }
 }
 
-.site-nav-link.current::after {
+.header__link.current::after {
   content: "";
   display: block;
   width: 100%;
@@ -83,24 +76,24 @@
   opacity: 1;
 }
 
-.auth-nav {
+.header__auth-nav {
   display: flex;
   margin-left: auto;
 }
 
-.auth-nav-item {
+.header__auth-item {
   padding: 32px 0;
   &:not(:first-child) {
     margin-left: 50px;
   }
 }
 
-.auth-nav-icon {
+.header__auth-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.auth-nav-link {
+.header__auth-link {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -118,7 +111,7 @@
 
 /*------------- Portfolio ---------------*/
 
-.header-border {
+.header__border {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   color: #e9e7e7;

@@ -1,13 +1,13 @@
-.reasons-section {
+.reasons {
   padding-top: 98px;
   padding-bottom: 94px;
 }
 
-.reasons-list {
+.reasons__list {
   display: flex;
 }
 
-.reasons-item {
+.reasons__item {
   width: 270px;
   height: 251px;
   &:not(:last-child) {
@@ -15,7 +15,7 @@
   }
 }
 
-.reasons-box {
+.reasons__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,12 +26,12 @@
   height: 120px;
 }
 
-.reasons-icon {
+.reasons__icon {
   width: 70px;
   height: 70px;
 }
 
-.reasons-title {
+.reasons__title {
   color: var(--second-title-color);
   font-family: Roboto;
   font-weight: 700;
@@ -42,7 +42,7 @@
   margin-bottom: 10px;
 }
 
-.reasons-text {
+.reasons__text {
   color: var(--main-text-color);
   font-size: 14px;
   line-height: 1.71;

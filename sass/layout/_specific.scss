@@ -1,16 +1,16 @@
-.specific-section {
+.specific__section {
   padding-top: 0px;
 }
 
-.specific-list {
+.specific__list {
   display: flex;
 }
 
-.specific-item:not(:last-child) {
+.specific__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.specific-title {
+.specific__title {
   color: var(--second-title-color);
   font-weight: 700;
   font-size: 36px;
@@ -19,17 +19,11 @@
   margin-bottom: 50px;
 }
 
-.specific-thumb-action {
-}
-
-.specific-thumb {
+.specific__thumb {
   position: relative;
 }
 
-.specific-item {
-}
-
-.specific-action {
+.specific__action {
   position: absolute;
   background-color: rgba(47, 48, 58, 0.8);
   height: 70px;
@@ -40,7 +34,7 @@
   bottom: 0;
 }
 
-.specific-action-title {
+.specific__action-title {
   color: var(--main-title-color);
   font-weight: 700;
   font-size: 14px;
