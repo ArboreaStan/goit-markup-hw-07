@@ -301,6 +301,9 @@ body {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   color: #e9e7e7;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: #e9e7e7;
 }
 
 .header__container {
@@ -358,12 +361,12 @@ body {
   color: var(--accent-color);
 }
 
-.current {
+.site-nav__link--current {
   color: var(--accent-color);
   opacity: 1;
 }
 
-.site-nav__link.current::after {
+.site-nav__link.site-nav__link--current::after {
   content: "";
   display: block;
   width: 100%;
@@ -411,22 +414,12 @@ body {
   color: var(--accent-color);
 }
 
-/*------------- Portfolio ---------------*/
-.header__border {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  color: #e9e7e7;
-}
-
 .hero {
   background-color: var(--main-background-color);
   text-align: center;
   padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
-}
-
-.overlay {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_background.jpg);
   max-width: 1600px;
   height: 600px;

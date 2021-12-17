@@ -2,6 +2,9 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   color: #e9e7e7;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: #e9e7e7;
 }
 
 .header__container {
@@ -62,12 +65,12 @@
   }
 }
 
-.current {
+.site-nav__link--current {
   color: var(--accent-color);
   opacity: 1;
 }
 
-.site-nav__link.current::after {
+.site-nav__link.site-nav__link--current::after {
   content: "";
   display: block;
   width: 100%;
@@ -112,12 +115,4 @@
   &:focus {
     color: var(--accent-color);
   }
-}
-
-/*------------- Portfolio ---------------*/
-
-.header__border {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  color: #e9e7e7;
 }
