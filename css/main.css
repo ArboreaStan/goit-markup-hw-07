@@ -635,7 +635,7 @@ body {
   fill: currentColor;
 }
 
-.customer__title {
+.section__title {
   color: var(--second-title-color);
   font-weight: 700;
   font-size: 36px;
@@ -645,7 +645,7 @@ body {
   margin-bottom: 50px;
 }
 
-.customer__list {
+.customer {
   display: flex;
 }
 
