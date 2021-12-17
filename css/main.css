@@ -506,11 +506,11 @@ body {
   line-height: 1.71;
 }
 
-.specific__section {
+.section--no-padding-top {
   padding-top: 0px;
 }
 
-.specific__list {
+.specific {
   display: flex;
 }
 
@@ -518,7 +518,7 @@ body {
   margin-right: 30px;
 }
 
-.specific__title {
+.section__title {
   color: var(--second-title-color);
   font-weight: 700;
   font-size: 36px;
