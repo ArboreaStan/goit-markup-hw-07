@@ -698,7 +698,7 @@ body {
 }
 
 .footer__logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -706,7 +706,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer__link {
+.address__link {
   color: var(--main-title-color);
   font-style: normal;
   font-weight: normal;
@@ -717,11 +717,11 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__link:hover, .footer__link:focus {
+.address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
 
-.footer__contacts {
+.address__contacts {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -733,7 +733,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__contacts:hover, .footer__contacts:focus {
+.address__contacts:hover, .address__contacts:focus {
   color: var(--accent-color);
 }
 
@@ -741,33 +741,33 @@ body {
   color: #ffffff;
 }
 
-.footer__address {
+.address {
   margin-top: 20px;
 }
 
-.footer__item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer__pre-box {
+.network {
   margin-left: 70px;
 }
 
-.footer__pre-list {
+.network__list {
   display: flex;
 }
 
-.footer__pre-item {
+.network__item {
   width: 44px;
   height: 44px;
   background-color: #ffffff 10%;
 }
 
-.footer__pre-item + .footer__pre-item {
+.network__item + .network__item {
   margin-left: 10px;
 }
 
-.footer__pre-link {
+.network__link {
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -780,21 +780,21 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__pre-link:hover, .footer__pre-link:focus {
+.network__link:hover, .network__link:focus {
   background-color: var(--accent-color);
 }
 
-.footer__pre-icon {
+.network__icon {
   fill: #ffffff;
 }
 
-.footer__online {
+.online {
   width: 570px;
   height: 86px;
   margin-left: 93px;
 }
 
-.footer__form {
+.online__form {
   display: flex;
 }
 
@@ -808,7 +808,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer__input {
+.online__input {
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -828,11 +828,11 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__input:focus, .footer__input:hover {
+.online__input:focus, .online__input:hover {
   border-color: var(--accent-color);
 }
 
-.footer__button {
+.online__button {
   width: 200px;
   height: 50px;
   font-weight: 700;
@@ -847,12 +847,12 @@ body {
   border-radius: 4px;
 }
 
-.footer__button:hover, .footer__button:focus {
+.online__button:hover, .online__button:focus {
   color: #ffffff;
   background-color: #188ce8;
 }
 
-.footer__icon {
+.online__icon {
   margin-left: 10px;
 }
 
