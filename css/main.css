@@ -176,7 +176,7 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__form-input:focus + .input-icon {
+.modal__form-input:focus + .input__icon {
   fill: var(--accent-color);
 }
 
@@ -225,7 +225,7 @@ a {
 }
 
 .check__text::before {
-  content: "";
+  content: '';
   width: 16px;
   height: 15px;
   border: 2px solid #000000;
